@@ -11,27 +11,27 @@ void main()
     {
         case 1:
         s=a+b;
-        printf("the sum is %d",s);
+        printf("the sum of %d and %d  is %d",a,b,s);
         break;
 
         case 2:
         d=a-b;
-        printf("the diffirence is %d",d);
+        printf("the diffirence of %d and %d is %d",a,b,d);
         break;
         
         case 3:
         m=a*b;
-        printf("the multiplication is %d",m);
+        printf("the multiplication of %d and %d is %d",a,b,m);
         break;
         
         case 4:
         di=a/b;
-        printf("the division  is %d",di);
+        printf("the division  of %d and %d is %d",a,b,di);
         break;
 
         case 5:
         mo=a%b;
-        printf("the modulus is %d",mo);
+        printf("the modulus of %d and %d is %d",a,b,mo);
         break;
 
         default:
